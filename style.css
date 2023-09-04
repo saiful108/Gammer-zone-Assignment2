@@ -1,78 +1,148 @@
 /* navbar */
 
-.main{
-   padding:30px 10px;
+.main {
+    padding: 30px 10px;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:25px 100px  ;
+    padding: 25px 100px;
 }
-.logo{
+
+.logo {
     display: flex;
 }
-.anchor{
- color: #3C354F;
-text-align: center;
-font-family: Work Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-padding: 10px;
+
+.anchor {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px;
 }
 
-.folow-btn{
+.folow-btn {
     border-style: none;
-    border-radius: 8px
-    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px background: rgba(11, 2, 35, 0.10);
 
 }
-.youtube{
+
+.youtube {
     color: red;
 }
 
 
 /* header */
-.header{
-display: flex;
-justify-content: space-between;
+.header {
+    display: flex;
+    justify-content: space-between;
 
 }
-.Group-18-img{
+
+.Group-18-img {
     width: 600px;
-    
+
 }
-.play{
+
+.play {
     padding: 100px;
 }
 
-.goat{
-  
-  margin-top: -40px;
-font-size: 85px;
-font-style: normal;
-font-weight: 800;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.mini-text{
-    padding-right: 5px;
-    color:#F948B2 ;
+.goat {
+
+    margin-top: -40px;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.sign{
-    padding: 15px 40px;
-    border-radius: 48px;
-    border-style: none;
-   background-color: #F948B2;
+.mini-text {
+    padding-right: 5px;
+    color: #F948B2;
 }
-.go{
+
+.sign {
     padding: 15px 40px;
     border-radius: 48px;
     border-style: none;
+    background-color: #F948B2;
+}
+
+.go {
+    padding: 15px 40px;
+    border-radius: 48px;
+    border-style: none;
+
+    background: #4EC5F7;
+}
+
+/*  <!-- online games --> */
+
+.online {
+
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.collection {
+    color: #534C64;
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
+.online-container{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;;
+}
+.online-img{
+    
+    border-radius: 16px;
+    margin-top: 20px;
+    width: 300px;
+height: 400px;
+
+}
+.watch:hover{
+    
+ border: 0px solid var(--Linear, #FF42A5);
+opacity: 40%;
+ 
+
+
    
-background: #4EC5F7;
+    
+   
+
 }
+
+
+/*  <!-- online games --> */

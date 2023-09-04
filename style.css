@@ -1,4 +1,8 @@
 /* navbar */
+.gray {
+    color: gray;
+    
+}
 
 .main {
     padding: 30px 10px;
@@ -117,32 +121,69 @@
     font-weight: 400;
 
 }
-.online-container{
-    
+
+.online-container {
+
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 5px;;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    ;
 }
-.online-img{
-    
+
+.online-img {
+
     border-radius: 16px;
     margin-top: 20px;
     width: 300px;
-height: 400px;
+    height: 400px;
 
 }
-.watch:hover{
-    
- border: 0px solid var(--Linear, #FF42A5);
-opacity: 40%;
- 
 
+.watch:hover {
 
-   
-    
-   
+    border: 0px solid var(--Linear, #FF42A5);
+    opacity: 40%;
 
 }
 
 
 /*  <!-- online games --> */
+
+/*play instently  */
+
+.play-instently {
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.play-img1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+
+}
+
+.play-img2 {
+    width: 300px;
+    height: 350px;
+    margin-top: -210px;
+    margin-left: -130px;
+
+}
+
+.instent-heading {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 170px;
+
+}
+.instent-sub-heading{
+    text-align: right;
+    margin-right: 170px;
+}
+/*play instently  */

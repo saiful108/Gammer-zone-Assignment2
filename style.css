@@ -1,0 +1,29 @@
+/* navbar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px 100px  ;
+}
+.logo{
+    display: flex;
+}
+.anchor{
+ color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+padding: 10px;
+}
+
+.folow-btn{
+    border-style: none;
+    border-radius: 8px
+    background: rgba(11, 2, 35, 0.10);
+
+}
+.youtube{
+    color: red;
+}

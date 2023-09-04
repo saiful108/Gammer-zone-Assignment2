@@ -1,4 +1,8 @@
 /* navbar */
+
+.main{
+   padding:30px 10px;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -26,4 +30,49 @@ padding: 10px;
 }
 .youtube{
     color: red;
+}
+
+
+/* header */
+.header{
+display: flex;
+justify-content: space-between;
+
+}
+.Group-18-img{
+    width: 600px;
+    
+}
+.play{
+    padding: 100px;
+}
+
+.goat{
+  
+  margin-top: -40px;
+font-size: 85px;
+font-style: normal;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.mini-text{
+    padding-right: 5px;
+    color:#F948B2 ;
+}
+
+.sign{
+    padding: 15px 40px;
+    border-radius: 48px;
+    border-style: none;
+   background-color: #F948B2;
+}
+.go{
+    padding: 15px 40px;
+    border-radius: 48px;
+    border-style: none;
+   
+background: #4EC5F7;
 }

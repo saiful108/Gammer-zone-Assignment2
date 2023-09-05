@@ -1,4 +1,7 @@
 /* navbar */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .gray {
     color: gray;
     

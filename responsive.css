@@ -1,10 +1,191 @@
-@media only screen and (max-width: 576px) {
-    .nav{
+@media only screen and (max-width: 426px) {
+   
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    .nav {
         flex-direction: column;
     }
-    .res-anchor{
+
+    .res-anchor {
         display: flex;
         flex-direction: column;
     }
-   
-  }
+
+    /* header */
+    .header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .play {
+        padding: 50px;
+    }
+
+    .play-heading {
+        font-size: 38px;
+    }
+
+    .goat {
+
+        margin-top: -40px;
+        font-size: 65px;
+        font-style: normal;
+        font-weight: 800;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .Group-18-img {
+        width: 400px;
+
+    }
+
+    /* header */
+    /* online games */
+    .online-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    /* .online-sub-container{
+        padding: 10px 0;
+    } */
+    .online-img {
+
+        border-radius: 16px;
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+    /* online games */
+
+    /* <!-- play instently --> */
+    .play-instently {
+
+        display: grid;
+        grid-template-columns: 1;
+
+
+        gap: 10px;
+    }
+
+    .play-img1 {
+        width: 300px;
+        height: 350px;
+        border-radius: 8px;
+
+    }
+
+    .play-img2 {
+        width: 150px;
+        height: 200px;
+        margin-top: -130px;
+        margin-left: -40px;
+
+    }
+
+    .instent-heading {
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: 30px;
+        /* padding-left: 40px; */
+
+    }
+
+    .instent-sub-heading {
+        text-align: center;
+        margin-left: 30px;
+        /* margin-right: 170px; */
+    }
+
+    /* <!-- play instently --> */
+    /* rectengle */
+    .rectengle {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+
+
+    }
+
+    .round-img {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 60px;
+        border-radius: 50px;
+    }
+
+    .round-img-png {
+        width: 40px;
+
+    }
+
+    .round-heading {
+        font-size: 10px;
+    }
+
+
+    /* footer */
+    .gamer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+
+    .footer {
+        background: #0B0223;
+        /* padding: 100px; */
+    }
+
+    .links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-weight: 600
+    }
+
+    .footer-heading {
+        font-size: 5px;
+        font-weight: 700;
+
+    }
+
+    .footer-link {
+        margin-top: 5px;
+        text-decoration: none;
+        color: white;
+        padding: 0 0;
+
+
+    }
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 0;
+
+    }
+
+    /* .icons{
+        color: white;
+        font-size: 30px;
+    } */
+
+}
